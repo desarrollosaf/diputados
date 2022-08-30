@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="assets/images/favicon.png" rel="icon" type="image/png">
+
+    <!-- Basic Page Needs
+        ================================================== -->
+    <title>Socialite Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Socialite is - Professional A unique and beautiful collection of UI elements">
+
+    <!-- icons
+    ================================================== -->
+    <link rel="stylesheet" href="assets/css/icons.css">
+
+    <!-- CSS 
+    ================================================== -->
+    <link rel="stylesheet" href="assets/css/uikit.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+<div id="wrapper">
+
+    <!-- Header -->
+    <header>
+
+        <div class="header_wrap">
+            <div class="header_inner mcontainer">
+                <div class="left_side">
+                    <div id="logo">
+                        <a href="feed.html">
+                            <img src="assets/images/logo.svg" alt="">
+                            <img src="assets/images/logo.svg" class="logo_mobile" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- search icon for mobile -->
+                <div class="header-search-icon" uk-toggle="target: #wrapper ; cls: show-searchbox"></div>
+                <div class="header_search"><i class="uil-search-alt"></i>
+                    <input value="" type="text" class="form-control" placeholder="Explora tu Legislativo"
+                           autocomplete="off">
+                </div>
+                <br>
+                <div class="right_side">
+                    <div class="header_widgets">
+                        <a href="#" class="is_icon" uk-tooltip="title: Legislatura">
+                            <img src="assets/images/icons/icon_sin_stroke-03-02.svg" alt="Legislatura"/>
+
+                        </a>
+
+                        <a href="#" class="is_icon" uk-tooltip="title: Actividad">
+                            <img src="assets/images/icons/icon_sin_stroke-03-03.svg" alt="Actividad"/>
+                        </a>
+
+
+                        <a href="#" class="is_icon" uk-tooltip="title: Transparencia">
+                            <img src="assets/images/icons/icon_sin_stroke-03-01.svg" alt="Transparencia"/>
+                        </a>
+
+                            <span class="slide_menu" uk-toggle="target: #wrapper ; cls: is-collapse is-active">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="20"><path
+                                        d="M2 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z" fill="currentColor"></path></svg>
+                            </span>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <!-- sidebar -->
+    <div class="sidebar">
+
+        <div class="sidebar_inner" data-simplebar>
+
+            <ul>
+                <li><a href="feed.html">
+                    <img width="30px;" src="assets/images/icons/ICONS_2-01.svg" alt="Perfil"/>
+                    <span class="color-menu"> Perfil </span> </a>
+                </li>
+                <li><a href="pages.html">
+                    <img width="30px;" src="assets/images/icons/ICONS_2-02.svg" alt="Iniciativas"/>
+                    <span class="color-menu"> Iniciativas </span> </a>
+                </li>
+                <li><a href="videos.html">
+                    <img width="30px;" src="assets/images/icons/ICONS_2-03.svg" alt="Noticias"/>
+                    <span class="color-menu"> Noticias </span></a>
+                </li>
+            </ul>
+
+
+
+        </div>
+
+        <!-- sidebar overly for mobile -->
+        <div class="side_overly" uk-toggle="target: #wrapper ; cls: is-collapse is-active"></div>
+
+    </div>
+
+    <!-- Main Contents -->
+    <div class="main_content">
+        <div class="mcontainer">
+
+
+
+
+
+            <div class="flex justify-between relative md:mb-6 mb-6">
+                <div class="flex-1">
+                    <h3 class="text-2xl text-gray-500 font-medium mb-2">Diputado</h3>
+                    <h1 class="text-5xl font-semibold"> Maurilio Hernández González </h1><br>
+                </div>
+            </div>
+
+
+
+            <div class="md:flex md:space-x-12" width="100%">
+                <div class="w-full flex-shrink-0 md:w-8/12">
+                    <div class="divide-y card px-4">
+                        <!-- job 1 -->
+                        <div class="flex flex md:space-x-4 space-x-4 md:py-5 py-3 relative">
+                            <a href="course-intro.html" class="md:w-64 md:h-64 w-72 rounded-lg relative ">
+                                <img src="assets/images/group/foto_0000_Capa-15.png" alt=""
+                                     class="w-full h-full absolute inset-0 rounded object-cover">
+                            </a>
+                            <div class="flex-1 space-y-2">
+                                <h4 class="text-base text-gray-500 font-medium mb-2">Distrito II</h4>
+                                <a href="job-details.html">
+                                    <h3 class="text-xl font-medium mb-4"> Tultitlán de Mariano Escobedo</h3>
+                                </a>
+                                <p> Profesor normalista. Coordinador del grupo parlamentario de Morena y Presidente de
+                                    la JUCOPO de la LXI Legislatura del Estado de México. Diputado local por el Distrito
+                                    11, Tultitlán de Mariano Escobedo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex-shirink-0">
+                    <div class="card p-4 mb-5">
+                        <h1 class="block text-lg font-bold color-menu"> Contáctame </h1>
+                        <div class="space-y-5 mt-4">
+                            <div class="flex items-center space-x-4">
+                                <ion-icon class="icon-material-outline-email bg-gray-100 p-4 rounded text-2xl"
+                                          aria-label="correo"></ion-icon>
+                                <ion-icon class="icon-material-outline-location-on bg-gray-100 p-4 rounded text-2xl"
+                                          role="img" aria-label="people"></ion-icon>
+                                <ion-icon class="icon-feather-phone bg-gray-100 p-4 rounded text-2xl" role="img"
+                                          aria-label="people"></ion-icon>
+                            </div>
+
+                        </div>
+                        <br>
+                        <h1 class="block text-lg font-bold color-menu"> Sigueme </h1>
+                        <div class="space-y-5 mt-4">
+                            <div class="flex items-center space-x-4">
+                                <ion-icon  class="icon-feather-facebook bg-gray-100 p-4 rounded text-2xl" role="img"
+                                          aria-label="people"></ion-icon>
+                                <ion-icon class="icon-feather-twitter bg-gray-100 p-4 rounded text-2xl" role="img"
+                                          aria-label="people"></ion-icon>
+                                <ion-icon class="icon-feather-instagram bg-gray-100 p-4 rounded text-2xl" role="img"
+                                          aria-label="people"></ion-icon>
+                                <ion-icon class="icon-material-outline-language bg-gray-100 p-4 rounded text-2xl"
+                                          role="img" aria-label="people"></ion-icon>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <h1 class="text-2xl font-semibold"> Comisiones de Maurilio</h1><br>
+            <div class="  grid md:grid-cols-3 gap-3" uk-sortable="cls-custom: transform -rotate-6 shadow-2xl">
+
+
+
+
+
+                <div class="bg-purple-200 rounded-lg shadow-md p-3 flex ">
+                    <div class="">
+                        <ion-icon class="icon-feather-user bg-purple-100 p-4 rounded text-2xl" role="img"
+                                  aria-label="people"></ion-icon>
+                    </div>
+                    <div class="ml-2 flex-1 space-y-2">
+                        <div class="font-semibold"> Presidente</div>
+                        <p class="text-sm"> Junta de la cordicación politica JUCOPO </p>
+                    </div>
+                </div>
+                <div class="bg-cyan-100 rounded-lg shadow-md p-3  flex ">
+                    <div class="">
+                        <ion-icon class="icon-feather-users bg-cyan-200 p-4 rounded text-2xl" role="img"
+                                  aria-label="people"></ion-icon>
+                    </div>
+                    <div class="ml-2 flex-1 space-y-2">
+                        <div class="font-semibold-purple"> Miembro</div>
+                        <p class="text-sm"> Gobernación y Puntos Constitucionales</p>
+                    </div>
+                </div>
+                <div class="bg-cyan-100 rounded-lg shadow-md p-3 flex ">
+                    <div class="">
+                        <ion-icon class="icon-feather-users bg-cyan-200 p-4 rounded text-2xl" role="img"
+                                  aria-label="people"></ion-icon>
+                    </div>
+                    <div class="ml-2 flex-1 space-y-2">
+                        <div class="font-semibold-purple"> Miembro</div>
+                        <p class="text-sm"> Planeación y Gasto Público</p>
+                    </div>
+                </div>
+                <div class="bg-cyan-100 rounded-lg shadow-md p-3 flex ">
+                    <div class="">
+                        <ion-icon class="icon-feather-users bg-cyan-200 p-4 rounded text-2xl" role="img"
+                                  aria-label="people"></ion-icon>
+                    </div>
+                    <div class="ml-2 flex-1 space-y-2">
+                        <div class="font-semibold-purple"> Miembro</div>
+                        <p class="text-sm-medium"> Administración</p>
+                    </div>
+                </div>
+                <div class="bg-cyan-100 rounded-lg shadow-md p-3 flex ">
+                    <div class="">
+                        <ion-icon class="icon-feather-users bg-cyan-200 p-4 rounded text-2xl" role="img"
+                                  aria-label="people"></ion-icon>
+                    </div>
+                    <div class="ml-2 flex-1 space-y-2">
+                        <div class="font-semibold-purple"> Miembro</div>
+                        <p class="text-sm"> Comisión Especial del Seguimiento al Secretariado Técnico para el Análisis y Estudio de la Reforma Constitucional y Legal del Estado de México</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!-- For Night mode -->
+<script>
+
+
+    (function (window, document, undefined) {
+        'use strict';
+        if (!('localStorage' in window)) return;
+        var nightMode = localStorage.getItem('gmtNightMode');
+        if (nightMode) {
+            document.documentElement.className += ' night-mode';
+        }
+    })(window, document);
+
+    (function (window, document, undefined) {
+
+        'use strict';
+
+        // Feature test
+        if (!('localStorage' in window)) return;
+
+        // Get our newly insert toggle
+        var nightMode = document.querySelector('#night-mode');
+        if (!nightMode) return;
+
+        // When clicked, toggle night mode on or off
+        nightMode.addEventListener('click', function (event) {
+            event.preventDefault();
+            document.documentElement.classList.toggle('dark');
+            if (document.documentElement.classList.contains('dark')) {
+                localStorage.setItem('gmtNightMode', true);
+                return;
+            }
+            localStorage.removeItem('gmtNightMode');
+        }, false);
+
+    })(window, document);
+</script>
+
+<!-- Javascript
+================================================== -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="assets/js/tippy.all.min.js"></script>
+<script src="assets/js/uikit.js"></script>
+<script src="assets/js/simplebar.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+</body>
+</html>

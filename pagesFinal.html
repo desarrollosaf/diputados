@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="assets/images/favicon.png" rel="icon" type="image/png">
+
+    <!-- Basic Page Needs
+        ================================================== -->
+    <title>Socialite Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Socialite is - Professional A unique and beautiful collection of UI elements">
+
+    <!-- icons
+    ================================================== -->
+    <link rel="stylesheet" href="assets/css/icons.css">
+
+    <!-- CSS 
+    ================================================== -->
+    <link rel="stylesheet" href="assets/css/uikit.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+
+<div id="wrapper">
+
+    <!-- Header -->
+
+
+    <header>
+        <div class="header_wrap">
+            <div class="header_inner mcontainer">
+                <div class="left_side">
+                    <div id="logo">
+                        <a href="feed.html">
+                            <img src="assets/images/logo.svg" alt="">
+                            <img src="assets/images/logo.svg" class="logo_mobile" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- search icon for mobile -->
+                <div class="header-search-icon" uk-toggle="target: #wrapper ; cls: show-searchbox"></div>
+                <div class="header_search"><i class="uil-search-alt"></i>
+                    <input value="" type="text" class="form-control" placeholder="Explora tu Legislativo"
+                           autocomplete="off">
+                </div>
+
+                <div class="right_side">
+                    <div class="header_widgets">
+
+                        <a href="#" class="is_icon" uk-tooltip="title: Legislatura">
+                            <img src="assets/images/icons/icon_sin_stroke-03-02.svg" alt="Legislatura"/>
+
+                        </a>
+
+                        <a href="#" class="is_icon" uk-tooltip="title: Actividad">
+                            <img src="assets/images/icons/icon_sin_stroke-03-03.svg" alt="Actividad"/>
+                        </a>
+
+
+                        <a href="#" class="is_icon" uk-tooltip="title: Transparencia">
+                            <img src="assets/images/icons/icon_sin_stroke-03-01.svg" alt="Transparencia"/> </a>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main Contents -->
+
+    <div class="main_content">
+        <div class="mcontainer">
+
+
+            <div class="flex justify-between relative md:mb-4 mb-3">
+                <div class="flex-1">
+                    <h2 class="text-2xl font-semibold"> Diputadas y Diputados </h2>
+
+                </div>
+            </div>
+
+
+            <div class="grid md:grid-cols-4 grid-cols-2 gap-4 mt-5">
+
+                <div class="line">
+                    <div class="header_search_local"><i class="uil-search-alt"></i>
+                        <input value="" type="text" class="form-control" placeholder="Buscar"
+                               autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="line">
+                    <select id="" name="" class="shadow-none selectpicker with-border ">
+                        <option value="1">Ordenar por Distrito</option>
+                        <option value="2">Comisiones</option>
+                        <option value="3">Grupos Parlamentarios</option>
+                        <option value="4">Nombre</option>
+                        <option value="5">Apellido</option>
+                        <option value="6">Género</option>
+
+                    </select>
+                </div>
+
+                <div class="line textosdrop">
+                    Borrar todos los filtros
+                </div>
+                <div class="line">
+                    <select id="" name="" class="shadow-none selectpicker with-border ">
+                        <option value="1">Mostrar Filtros (9)</option>
+
+                    </select>
+
+
+                </div>
+
+            </div>
+
+            <hr>
+            <h2 class="text-xl font-bold"> Comisiones Legislativas <a href="#trailer-modal"
+                                                                      class="bg-purple-100 border font-semibold ml-2 px-2 py-1 rounded-full text-purple-500 text-xs"
+                                                                      uk-toggle> 33 </a></h2>
+            <h2 class="text-xl font-semibold"> Gobernación y Puntos Constitucionales <a href="#trailer-modal"
+                                                                                        class="bg-purple-100 border font-semibold ml-2 px-2 py-1 rounded-full text-purple-500 text-xs"
+                                                                                        uk-toggle> 33 </a></h2>
+
+
+            <div class="grid md:grid-cols-4 grid-cols-2 gap-4 mt-5">
+                <div>
+                    <div class=" w-76  rounded-lg relative overflow-hidden  uk-transition-toggle">
+                        <div class="card">
+                            <div class="card-media h-80">
+                                <div class="card-media-overly"></div>
+                                <img src="assets/images/group/foto_0000_Capa-15.png" alt="" class="">
+
+                            </div>
+                            <div class="card-body">
+                                <a href="timeline-group.html" class="font-semibold text-lg truncate">Maurilio Hernández
+                                    Gonzáles</a>
+                                <div class="flex items-center flex-wrap space-x-1 mt-1 text-sm text-gray-500 capitalize">
+                                    <a href="#"> <span> Distrito II </span> </a>
+                                </div>
+
+
+                                <div class="flex mt-3.5 space-x-2 text-sm font-medium">
+
+                                    <a href="#"
+                                       class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md">
+                                        Ver a mi Diputado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" w-76  rounded-lg relative overflow-hidden  uk-transition-toggle">
+                        <div class="card">
+                            <div class="card-media h-80">
+                                <div class="card-media-overly"></div>
+                                <img src="assets/images/group/foto_0001_Capa-14.png" alt="" class="">
+                                <div class="absolute  font-semibold px-2.5 py-1 rounded-full text-black-500 text-xs top-2.5 right-2.5">
+                                    PRI
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="timeline-group.html" class="font-semibold text-lg truncate">Aguilar Talavera,
+                                    Karla</a>
+                                <div class="flex items-center flex-wrap space-x-1 mt-1 text-sm text-gray-500 capitalize">
+                                    <a href="#"> <span> Distrito II </span> </a>
+                                </div>
+
+
+                                <div class="flex mt-3.5 space-x-2 text-sm font-medium">
+
+                                    <a href="#"
+                                       class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md">
+                                        Ver a mi Diputado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" w-76  rounded-lg relative overflow-hidden  uk-transition-toggle">
+                        <div class="card">
+                            <div class="card-media h-80">
+                                <div class="card-media-overly"></div>
+                                <img src="assets/images/group/foto_0002_Capa-13.png" alt="" class="">
+                                <div class="absolute  font-semibold px-2.5 py-1 rounded-full text-black-500 text-xs top-2.5 right-2.5">
+                                    PRI
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="timeline-group.html" class="font-semibold text-lg truncate">Osornio Jiménez,
+                                    Evelyn</a>
+                                <div class="flex items-center flex-wrap space-x-1 mt-1 text-sm text-gray-500 capitalize">
+                                    <a href="#"> <span> Distrito II </span> </a>
+                                </div>
+
+
+                                <div class="flex mt-3.5 space-x-2 text-sm font-medium">
+
+                                    <a href="#"
+                                       class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md">
+                                        Ver a mi Diputado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" w-76  rounded-lg relative overflow-hidden  uk-transition-toggle">
+                        <div class="card">
+                            <div class="card-media h-80">
+                                <div class="card-media-overly"></div>
+                                <img src="assets/images/group/foto_0003_Capa-12.png" alt="" class="">
+
+                            </div>
+                            <div class="card-body">
+                                <a href="timeline-group.html" class="font-semibold text-lg truncate">Vargas Del Villar,
+                                    Enrique</a>
+                                <div class="flex items-center flex-wrap space-x-1 mt-1 text-sm text-gray-500 capitalize">
+                                    <a href="#"> <span> Distrito II </span> </a>
+                                </div>
+
+
+                                <div class="flex mt-3.5 space-x-2 text-sm font-medium">
+
+                                    <a href="#"
+                                       class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md">
+                                        Ver a mi Diputado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" w-76  rounded-lg relative overflow-hidden  uk-transition-toggle">
+                        <div class="card">
+                            <div class="card-media h-80">
+                                <div class="card-media-overly"></div>
+                                <img src="assets/images/group/foto_0004_Capa-11.png" alt="" class="">
+                                <div class="absolute  font-semibold px-2.5 py-1 rounded-full text-black-500 text-xs top-2.5 right-2.5">
+                                    PRI
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="timeline-group.html" class="font-semibold text-lg truncate">Jacob Rocha,
+                                    Enrique Edgardo</a>
+                                <div class="flex items-center flex-wrap space-x-1 mt-1 text-sm text-gray-500 capitalize">
+                                    <a href="#"> <span> Distrito II </span> </a>
+                                </div>
+
+
+                                <div class="flex mt-3.5 space-x-2 text-sm font-medium">
+
+                                    <a href="#"
+                                       class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md">
+                                        Ver a mi Diputado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" w-76  rounded-lg relative overflow-hidden  uk-transition-toggle">
+                        <div class="card">
+                            <div class="card-media h-80">
+                                <div class="card-media-overly"></div>
+                                <img src="assets/images/group/foto_0005_Capa-10.png" alt="" class="">
+                                <div class="absolute  font-semibold px-2.5 py-1 rounded-full text-black-500 text-xs top-2.5 right-2.5">
+                                    Morena
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="timeline-group.html" class="font-semibold text-lg truncate">Aguirre Cruz,
+                                    Emiliano</a>
+                                <div class="flex items-center flex-wrap space-x-1 mt-1 text-sm text-gray-500 capitalize">
+                                    <a href="#"> <span> Distrito II </span> </a>
+                                </div>
+
+
+                                <div class="flex mt-3.5 space-x-2 text-sm font-medium">
+
+                                    <a href="#"
+                                       class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md">
+                                        Ver a mi Diputado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" w-76  rounded-lg relative overflow-hidden  uk-transition-toggle">
+                        <div class="card">
+                            <div class="card-media h-80">
+                                <div class="card-media-overly"></div>
+                                <img src="assets/images/group/foto_0006_Capa-9.png" alt="" class="">
+                                <div class="absolute  font-semibold px-2.5 py-1 rounded-full text-black-500 text-xs top-2.5 right-2.5">
+                                    PRI
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="timeline-group.html" class="font-semibold text-lg truncate">Sánchez Coronel,
+                                    Cristina</a>
+                                <div class="flex items-center flex-wrap space-x-1 mt-1 text-sm text-gray-500 capitalize">
+                                    <a href="#"> <span> Distrito II </span> </a>
+                                </div>
+
+
+                                <div class="flex mt-3.5 space-x-2 text-sm font-medium">
+
+                                    <a href="#"
+                                       class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md">
+                                        Ver a mi Diputado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" w-76  rounded-lg relative overflow-hidden  uk-transition-toggle">
+                        <div class="card">
+                            <div class="card-media h-80">
+                                <div class="card-media-overly"></div>
+                                <img src="assets/images/group/foto_0007_Capa-8.png" alt="" class="">
+                                <div class="absolute  font-semibold px-2.5 py-1 rounded-full text-black-500 text-xs top-2.5 right-2.5">
+                                    Morena
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="timeline-group.html" class="font-semibold text-lg truncate">García Villegas,
+                                    Beatriz</a>
+                                <div class="flex items-center flex-wrap space-x-1 mt-1 text-sm text-gray-500 capitalize">
+                                    <a href="#"> <span> Distrito II </span> </a>
+                                </div>
+
+
+                                <div class="flex mt-3.5 space-x-2 text-sm font-medium">
+
+                                    <a href="#"
+                                       class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md">
+                                        Ver a mi Diputado
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<!-- For Night mode -->
+<script>
+    (function (window, document, undefined) {
+        'use strict';
+        if (!('localStorage' in window)) return;
+        var nightMode = localStorage.getItem('gmtNightMode');
+        if (nightMode) {
+            document.documentElement.className += ' night-mode';
+        }
+    })(window, document);
+
+    (function (window, document, undefined) {
+
+        'use strict';
+
+        // Feature test
+        if (!('localStorage' in window)) return;
+
+        // Get our newly insert toggle
+        var nightMode = document.querySelector('#night-mode');
+        if (!nightMode) return;
+
+        // When clicked, toggle night mode on or off
+        nightMode.addEventListener('click', function (event) {
+            event.preventDefault();
+            document.documentElement.classList.toggle('dark');
+            if (document.documentElement.classList.contains('dark')) {
+                localStorage.setItem('gmtNightMode', true);
+                return;
+            }
+            localStorage.removeItem('gmtNightMode');
+        }, false);
+
+    })(window, document);
+</script>
+
+<!-- Javascript
+================================================== -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="assets/js/tippy.all.min.js"></script>
+<script src="assets/js/uikit.js"></script>
+<script src="assets/js/simplebar.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+</body>
+</html>
